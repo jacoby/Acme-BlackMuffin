@@ -1,0 +1,6 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/Acme-BlackMuffin.t
+lib/Acme/BlackMuffin.pm
