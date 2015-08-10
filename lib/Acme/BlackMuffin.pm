@@ -17,19 +17,22 @@ our @ISA = qw(Exporter);
 # If you do not need this, moving things directly into @EXPORT or @EXPORT_OK
 # will save memory.
 our %EXPORT_TAGS = ( 'all' => [ qw(
-	
+    fmep	
 ) ] );
 
 our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 
 our @EXPORT = qw(
+    fmep
+
 	
 );
 
 our $VERSION = '0.01';
 
-
 # Preloaded methods go here.
+
+sub fmep { return 1 }
 
 # Autoload methods go after =cut, and are processed by the autosplit program.
 
