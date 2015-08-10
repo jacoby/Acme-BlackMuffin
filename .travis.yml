@@ -8,8 +8,6 @@ perl:
   - "5.12"
   - "5.10"
   - "5.8"
-script:
-  PERL5OPT=-MDevel::Cover prove -lv t && cover -report coveralls
 notifications:
   email:
     - jacoby.david@gmail.com
