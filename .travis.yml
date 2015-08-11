@@ -9,9 +9,8 @@ perl:
   - "5.10"
 notifications:
   email:
-    - jacoby.david@gmail.com
-    - jacobydavid@live.com
-  on_success: always
+    - jacoby@csociety.org
+  on_success: change
   on_failure: always 
 
 
